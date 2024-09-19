@@ -1,0 +1,83 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;  
+}
+
+.body {
+  background-color: #dea1b0;
+  background-image: url(section-bg.jpg);
+  background-size: cover;
+}
+
+header {
+  padding: 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);  
+}
+
+#number {
+  font-family: Roller-Coaster-Serif;
+  font-size: 24px;
+}
+
+.header-links a {
+  font-family: Roller-Coaster-Serif;
+  font-size: 24px;
+  color: white;
+}
+
+#contact-icon {
+  color: white;
+  background-color: black;
+  padding: 3px;
+  box-shadow: 2px 2px 2px;
+}
+
+#contact-icon:active {
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.nav-links {
+  margin-right: 200px;
+}
+
+.nav-links a {
+  /* margin-right: 40px; */
+  font-size: 24px;
+  font-family: Roller-Coaster-Serif;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navbar-nav .nav-link {
+  transition: 1s
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fea4ad;
+  /* Change this to your desired hover color */
+}
+
+.navbar-nav .nav-link:active {
+  color: #fea4ad;
+  /* Change this to your desired hover color */
+}
+
+.items img {
+  width: 8%;
+  margin-left: 70px;
+}
+
+header a {
+  color: white;
+}
+
+#about{
+  font-family: Roller-Coaster-Serif;
+  font-size: 50px;
+}
+
+@font-face {
+  font-family: Roller-Coaster-Serif;
+  src: url(Roller\ Coaster.ttf);
+}

@@ -1,0 +1,187 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #dea1b0;
+  background-image: url(section-bg.jpg);
+  background-size: cover;
+}
+
+header {
+  padding: 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+#number {
+  font-family: Roller-Coaster-Serif;
+  font-size: 24px;
+}
+
+.header-links a {
+  font-family: Roller-Coaster-Serif;
+  font-size: 24px;
+  color: white;
+}
+
+#contact-icon {
+  color: white;
+  background-color: black;
+  padding: 3px;
+  box-shadow: 2px 2px 2px;
+}
+
+#contact-icon:active {
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.nav-links {
+  margin-right: 200px;
+}
+
+.nav-links a {
+  /* margin-right: 40px; */
+  font-size: 24px;
+  font-family: Roller-Coaster-Serif;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navbar-nav .nav-link {
+  transition: 1s
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fea4ad;
+  /* Change this to your desired hover color */
+}
+
+.navbar-nav .nav-link:active {
+  color: #fea4ad;
+  /* Change this to your desired hover color */
+}
+
+.items img {
+  width: 8%;
+  margin-left: 70px;
+}
+
+header a {
+  color: white;
+}
+
+.vid-section {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body video {
+  min-width: 100%;
+  min-height: 100%;
+  transition: 1s;
+  cursor: pointer;
+  /* box-shadow: 0px 0px 80px 0px #845cc8; */
+}
+
+.bg-overlap {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.441);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  /* align-items: center;   */
+}
+
+.venue {
+  display: flex;
+  flex: 2.5;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.arrow {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 30px;
+}
+
+.bg-overlap h1 {
+  font-family: Roller-Coaster-Serif;
+  padding: 10px;
+  font-size: 56px;
+  animation: animate__fadeIn 1s, colorChange 1s 0.5s forwards;
+  transition: 1s;
+  cursor: pointer;
+}
+
+@keyframes colorChange {
+  0% {
+    color: white;
+  }
+
+  100% {
+    color: #fea4ad;
+  }
+}
+
+#experience {
+  font-family: Brittany;
+  font-size: 30px;
+  animation: colorChangeP 1s 1s forwards;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#move-down {
+  cursor: pointer;
+  color: white;
+  transition: 1s;
+  /* margin-top: auto;   */
+}
+
+@keyframes colorChangeP {
+  0% {
+    color: white;
+  }
+
+  100% {
+    color: #fea4ad;
+  }
+}
+
+#move-down:hover {
+  color: #fea4ad;
+}
+
+@font-face {
+  font-family: Brittany;
+  src: url(BrittanySignature.ttf);
+}
+
+@font-face {
+  font-family: Roller-Coaster-Serif;
+  src: url(Roller\ Coaster.ttf);
+}
+
+#about {
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+footer a:active{
+  color: blue
+}
